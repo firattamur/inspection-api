@@ -1,0 +1,167 @@
+2024-08-24T12:43:26.855+03:00  INFO 67676 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Starting InspectionApiApplication using Java 21.0.1 with PID 67676 (/Users/firattamur/Desktop/inspection-api/target/classes started by firattamur in /Users/firattamur/Desktop/inspection-api)
+2024-08-24T12:43:26.856+03:00  INFO 67676 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T12:43:26.873+03:00  INFO 67676 --- [Inspection API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-24T12:43:26.873+03:00  INFO 67676 --- [Inspection API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-24T12:43:26.883+03:00  INFO 67676 --- [Inspection API] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file '/Users/firattamur/Desktop/inspection-api/compose.yaml'
+2024-08-24T12:43:27.252+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   : time="2024-08-24T12:43:27+03:00" level=warning msg="Found orphan containers ([inspection-api-minio-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+2024-08-24T12:43:27.252+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container inspection-api-postgres  Created
+2024-08-24T12:43:27.256+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container inspection-api-postgres  Starting
+2024-08-24T12:43:27.401+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container inspection-api-postgres  Started
+2024-08-24T12:43:27.402+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container inspection-api-postgres  Waiting
+2024-08-24T12:43:27.907+03:00  INFO 67676 --- [Inspection API] [OutputReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container inspection-api-postgres  Healthy
+2024-08-24T12:43:28.589+03:00  INFO 67676 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-24T12:43:28.612+03:00  INFO 67676 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2024-08-24T12:43:28.834+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-24T12:43:28.839+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T12:43:28.840+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-24T12:43:28.855+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T12:43:28.855+03:00  INFO 67676 --- [Inspection API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 545 ms
+2024-08-24T12:43:28.868+03:00  INFO 67676 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T12:43:28.947+03:00  INFO 67676 --- [Inspection API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c628aca
+2024-08-24T12:43:28.947+03:00  INFO 67676 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T12:43:28.953+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://127.0.0.1:5432/inspection'
+2024-08-24T12:43:29.027+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-24T12:43:29.057+03:00  INFO 67676 --- [Inspection API] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-24T12:43:29.073+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-24T12:43:29.195+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-24T12:43:29.651+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-24T12:43:29.714+03:00  INFO 67676 --- [Inspection API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:43:29.898+03:00  WARN 67676 --- [Inspection API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-24T12:43:30.049+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-24T12:43:30.064+03:00  INFO 67676 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-24T12:43:30.069+03:00  INFO 67676 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Started InspectionApiApplication in 3.351 seconds (process running for 3.535)
+2024-08-24T12:44:45.259+03:00  INFO 67676 --- [Inspection API] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:44:45.266+03:00  INFO 67676 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T12:44:45.270+03:00  INFO 67676 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T12:44:50.299+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Starting InspectionApiApplication using Java 21.0.1 with PID 68111 (/Users/firattamur/Desktop/inspection-api/target/classes started by firattamur in /Users/firattamur/Desktop/inspection-api)
+2024-08-24T12:44:50.299+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T12:44:50.316+03:00  INFO 68111 --- [Inspection API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-24T12:44:50.317+03:00  INFO 68111 --- [Inspection API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-24T12:44:50.327+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file '/Users/firattamur/Desktop/inspection-api/compose.yaml'
+2024-08-24T12:44:50.783+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-24T12:44:51.048+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-24T12:44:51.067+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2024-08-24T12:44:51.249+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-24T12:44:51.255+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T12:44:51.255+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-24T12:44:51.270+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T12:44:51.270+03:00  INFO 68111 --- [Inspection API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 482 ms
+2024-08-24T12:44:51.282+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T12:44:51.381+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ba8aed3
+2024-08-24T12:44:51.382+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T12:44:51.390+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://127.0.0.1:5432/inspection'
+2024-08-24T12:44:51.448+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-24T12:44:51.471+03:00  INFO 68111 --- [Inspection API] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-24T12:44:51.483+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-24T12:44:51.594+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-24T12:44:51.995+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-24T12:44:52.044+03:00  INFO 68111 --- [Inspection API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:44:52.219+03:00  WARN 68111 --- [Inspection API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-24T12:44:52.374+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-24T12:44:52.386+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-24T12:44:52.391+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Started InspectionApiApplication in 2.227 seconds (process running for 2.408)
+2024-08-24T12:44:59.586+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-24T12:44:59.587+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-24T12:44:59.587+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-24T12:44:59.776+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 88 ms
+2024-08-24T12:45:17.132+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-4] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:17.218+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-4] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:17.228+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-4] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:17.228+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-4] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:17.228+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-4] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:41.061+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-5] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:41.066+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-5] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:41.070+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-5] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:41.070+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-5] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:41.070+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-5] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:41.410+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-6] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:41.414+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-6] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:41.417+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-6] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:41.417+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-6] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:41.417+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-6] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:41.556+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-7] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:41.561+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-7] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:41.564+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-7] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:41.564+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-7] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:41.564+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-7] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:41.719+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-8] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:41.722+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-8] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:41.727+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-8] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:41.727+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-8] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:41.728+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-8] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:41.861+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-9] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:41.866+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-9] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:41.869+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-9] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:41.869+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-9] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:41.869+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-9] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:42.015+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-10] c.f.i.controller.InspectionController    : Getting inspection for car: 4
+2024-08-24T12:45:42.018+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-10] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:42.021+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-10] c.f.i.service.InspectionService          : Getting inspection for car: 4
+2024-08-24T12:45:42.021+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-10] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:42.022+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-10] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4
+2024-08-24T12:45:52.626+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] c.f.i.controller.InspectionController    : Getting inspection for car: 4sdf
+2024-08-24T12:45:52.632+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:45:52.635+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] c.f.i.service.InspectionService          : Getting inspection for car: 4sdf
+2024-08-24T12:45:52.635+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:45:52.635+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-1] c.f.i.controller.InspectionController    : Inspection retrieved for car: 4sdf
+2024-08-24T12:46:11.897+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-2] c.f.i.controller.InspectionController    : Creating inspection for car: CAR123456
+2024-08-24T12:46:11.903+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-2] c.f.i.service.InspectionService          : Creating inspection for car: CAR123456
+2024-08-24T12:46:11.920+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-2] c.f.i.service.InspectionService          : Answers created for inspection: null
+2024-08-24T12:46:11.948+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-2] c.f.i.service.InspectionService          : Inspection created for car: CAR123456
+2024-08-24T12:46:11.970+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-2] c.f.i.controller.InspectionController    : Inspection created for car: CAR123456
+2024-08-24T12:46:23.095+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] c.f.i.controller.InspectionController    : Getting inspection for car: CAR123456
+2024-08-24T12:46:23.100+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] c.f.i.service.InspectionService          : Getting questions for inspection
+2024-08-24T12:46:23.108+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] c.f.i.service.InspectionService          : Getting inspection for car: CAR123456
+2024-08-24T12:46:23.124+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] c.f.i.service.InspectionService          : Questions retrieved for inspection
+2024-08-24T12:46:23.125+03:00  INFO 68111 --- [Inspection API] [http-nio-8080-exec-3] c.f.i.controller.InspectionController    : Inspection retrieved for car: CAR123456
+2024-08-24T12:51:23.161+03:00  INFO 68111 --- [Inspection API] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 28 class path changes (0 additions, 1 deletion, 27 modifications)
+2024-08-24T12:51:24.813+03:00  WARN 68111 --- [Inspection API] [Thread-17] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+2024-08-24T12:51:24.824+03:00  INFO 68111 --- [Inspection API] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:51:24.834+03:00  INFO 68111 --- [Inspection API] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T12:51:24.838+03:00  INFO 68111 --- [Inspection API] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T12:51:24.908+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Starting InspectionApiApplication using Java 21.0.1 with PID 68111 (/Users/firattamur/Desktop/inspection-api/target/classes started by firattamur in /Users/firattamur/Desktop/inspection-api)
+2024-08-24T12:51:24.908+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T12:51:24.910+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file '/Users/firattamur/Desktop/inspection-api/compose.yaml'
+2024-08-24T12:51:25.260+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.b.d.c.l.DockerComposeLifecycleManager : There are already Docker Compose services running, skipping startup
+2024-08-24T12:51:25.327+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-24T12:51:25.331+03:00  INFO 68111 --- [Inspection API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 4 JPA repository interfaces.
+2024-08-24T12:51:25.378+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-24T12:51:25.379+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T12:51:25.379+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-24T12:51:25.383+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T12:51:25.383+03:00  INFO 68111 --- [Inspection API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-08-24T12:51:25.389+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-24T12:51:25.418+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@283bda5f
+2024-08-24T12:51:25.418+03:00  INFO 68111 --- [Inspection API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-24T12:51:25.418+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://127.0.0.1:5432/inspection'
+2024-08-24T12:51:25.430+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-24T12:51:25.431+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-24T12:51:25.434+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-24T12:51:25.486+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-24T12:51:25.530+03:00  INFO 68111 --- [Inspection API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:51:25.576+03:00  WARN 68111 --- [Inspection API] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-24T12:51:25.640+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-24T12:51:25.645+03:00  INFO 68111 --- [Inspection API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-24T12:51:25.647+03:00  INFO 68111 --- [Inspection API] [restartedMain] c.f.i.InspectionApiApplication           : Started InspectionApiApplication in 0.75 seconds (process running for 395.661)
+2024-08-24T12:51:25.648+03:00  INFO 68111 --- [Inspection API] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-24T12:57:35.249+03:00  INFO 68111 --- [Inspection API] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:57:35.255+03:00  INFO 68111 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-24T12:57:35.258+03:00  INFO 68111 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-24T12:57:40.802+03:00  INFO 68651 --- [Inspection API] [main] c.f.i.InspectionApiApplicationTests      : Starting InspectionApiApplicationTests using Java 21.0.1 with PID 68651 (started by firattamur in /Users/firattamur/Desktop/inspection-api)
+2024-08-24T12:57:40.803+03:00  INFO 68651 --- [Inspection API] [main] c.f.i.InspectionApiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T12:57:41.093+03:00  INFO 68651 --- [Inspection API] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-24T12:57:41.115+03:00  INFO 68651 --- [Inspection API] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 4 JPA repository interfaces.
+2024-08-24T12:57:41.248+03:00  INFO 68651 --- [Inspection API] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T12:57:41.343+03:00  INFO 68651 --- [Inspection API] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55682482
+2024-08-24T12:57:41.343+03:00  INFO 68651 --- [Inspection API] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T12:57:41.379+03:00  INFO 68651 --- [Inspection API] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-24T12:57:41.410+03:00  INFO 68651 --- [Inspection API] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-24T12:57:41.423+03:00  INFO 68651 --- [Inspection API] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-24T12:57:41.472+03:00  INFO 68651 --- [Inspection API] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-24T12:57:41.851+03:00  INFO 68651 --- [Inspection API] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-24T12:57:41.914+03:00  INFO 68651 --- [Inspection API] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:57:42.137+03:00  WARN 68651 --- [Inspection API] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-24T12:57:42.315+03:00  INFO 68651 --- [Inspection API] [main] c.f.i.InspectionApiApplicationTests      : Started InspectionApiApplicationTests in 1.62 seconds (process running for 2.586)
+2024-08-24T12:57:42.336+03:00  INFO 68651 --- [Inspection API] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T12:57:42.337+03:00  INFO 68651 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T12:57:42.339+03:00  INFO 68651 --- [Inspection API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

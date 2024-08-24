@@ -1,0 +1,37 @@
+{
+  "carId": "CAR123456",
+  "answers": [
+    {
+      "questionId": 1,
+      "hasIssue": true,
+      "description": "Müzik çalmıyor",
+      "photos": [
+        {
+          "url": "https://example.com/photos/music.jpg",
+          "orderNumber": 1
+        },
+        {
+          "url": "https://example.com/photos/screen.jpg",
+          "orderNumber": 2
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "hasIssue": false,
+      "description": null,
+      "photos": []
+    },
+    {
+      "questionId": 3,
+      "hasIssue": true,
+      "description": "Ruhsatta eksiklik var",
+      "photos": [
+        {
+          "url": "https://example.com/photos/ruhsat.jpg",
+          "orderNumber": 1
+        }
+      ]
+    }
+  ]
+}
